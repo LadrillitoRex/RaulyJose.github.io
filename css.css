@@ -1,20 +1,22 @@
 body{
-    background-color: gray;
+    background-color: lightsteelblue;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 
-.pagina{
-    background-color: #85C1E9;
-    box-shadow: 10px 10px 15px;
-    border: solid 3px;
-    border-radius: 8px;
-    margin-left: 20%;
-    margin-right: 20%;
+.pagina {
+    background: rgb(34,193,195);
+    background: linear-gradient(37deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    border: solid;
+    border-style: none;
+    box-shadow: 8px 8px 12px;
+    margin: 40px;
     height: auto;
     width: auto;
-    float: center;
-    border-style: none;
+    float: left;
+    border: solid;
+    border-radius: 5px;
+    font-size: 2em;
 }
 
 .cabezera{
@@ -22,22 +24,29 @@ body{
     color: whitesmoke;
     font-weight: bold;
     color: black;
+    text-align: center;
 }
 
 header{
-    background-image:url();
+    background-color: whitesmoke;
     background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 10px;
 }
 
 .icono{
     border-radius: 5px;
     border: 5px;
-    width: 200px;
+    width: 120px;
 }
 .parrafo{
     width: auto;
+}
+
+.botones{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+  
 }
 
 .button {
@@ -62,3 +71,21 @@ header{
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
+
+  main{
+    height: auto;
+    float: left;
+    width: 100%;
+  }
+
+  .imagenes img{
+    justify-content: center;
+    pointer-events: none;
+    object-fit: contain;
+    width: 50%;
+  }
+
+  section{
+    text-align: center;
+  }
+  
