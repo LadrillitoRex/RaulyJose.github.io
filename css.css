@@ -49,16 +49,16 @@ header{
     text-decoration: none;
     outline: none;
     color: #fff;
-    background-color: #db6439;
+    background-color: salmon;
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #999;
   }
 
-  .button:hover {background-color: #db6439}
+  .button:hover {background-color: salmon}
 
   .button:active {
-    background-color: #db6439;
+    background-color: salmon;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
